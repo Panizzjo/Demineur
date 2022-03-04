@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //  Intent fenetre_jeu;
-        // fenetre_jeu = new Intent(MainActivity.this,GameWindow.class);
-        // startActivity(fenetre_jeu);                                            //@test
+         Intent fenetre_jeu;
+         fenetre_jeu = new Intent(MainActivity.this,GameWindow.class);
+         startActivity(fenetre_jeu);                                            //@test
 
     }
 }

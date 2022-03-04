@@ -17,7 +17,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
                 android:layout_width="match_parent"
-                android:id="@+id/table_Game"
+                android:id="@+id/table_jeu"
                 android:shrinkColumns="*">
             </TableLayout>
 
@@ -35,15 +35,15 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true"
-                android:id="@+id/flag_Switch" />
+                android:id="@+id/Drapeau" />
 
             <Button
-                android:text="Terminer la partie"
+                android:text="Quitter la partie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
-                android:id="@+id/gameRestart_Button" />
+                android:id="@+id/Terminer" />
 
         </RelativeLayout>
 
