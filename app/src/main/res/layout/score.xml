@@ -28,9 +28,6 @@
         android:textSize="14dp"
         android:textColor="#222222"/>
 
-    <Button
-        android:id ="@+id/restart"
-
 
 
 </RelativeLayout>
