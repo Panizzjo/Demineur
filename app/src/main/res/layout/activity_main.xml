@@ -5,46 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <?xml version="1.0" encoding="utf-8"?>
 
-        android:layout_width="match_parent" android:layout_height="match_parent">
-
-        <ScrollView
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_width="match_parent"
-            android:layout_height="515dp">
-            <TableLayout
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:layout_width="match_parent"
-                android:id="@+id/table_Game"
-                android:shrinkColumns="*">
-            </TableLayout>
-        </ScrollView>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_height="50dp">
-
-            <Switch
-                android:text="Drapeau"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/flag_Switch" />
-
-            <Button
-                android:text="Terminer la partie"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:id="@+id/gameRestart_Button" />
-        </RelativeLayout>
-
-    </RelativeLayout>
+</RelativeLayout>
