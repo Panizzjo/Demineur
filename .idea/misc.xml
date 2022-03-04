@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/A2/S8/Android/Demineur/app/src/main/res/layout/activity_game_window.xml" value="0.16822916666666668" />
         <entry key="..\:/A2/S8/Android/Demineur/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/A2/S8/Android/Demineur/app/src/main/res/layout/score.xml" value="0.25" />
         <entry key="..\:/Users/antoi/AndroidStudioProjects/Demineur/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
