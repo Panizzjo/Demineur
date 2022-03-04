@@ -29,7 +29,7 @@ public class GameWindow extends AppCompatActivity {
         flagSwitch = (Switch)findViewById(R.id.Drapeau);
         table = (TableLayout) findViewById(R.id.table_jeu);
 
-            Bundle extras = getIntent().getExtras();
+          //  Bundle extras = getIntent().getExtras();
             taille = 5;
             bombe = 1;
 
@@ -83,6 +83,7 @@ public class GameWindow extends AppCompatActivity {
                 ArrayList<Cellule> voisins = getVoisins(c.getCaseX(), c.getCaseY());
                 c.addVoisins(voisins);
 
+
             }catch(Exception e){
                 e.printStackTrace();
             }
@@ -118,6 +119,7 @@ public class GameWindow extends AppCompatActivity {
      */
     private void addBombes(){
         int cptBombe = bombe;
+
         while (cptBombe>0){
             Random gen = new Random();
             int x = gen.nextInt(taille);

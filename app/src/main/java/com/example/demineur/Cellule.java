@@ -16,9 +16,7 @@ public class Cellule extends androidx.appcompat.widget.AppCompatButton implement
     private static final String charBombe ="B";
     private static final String charFlag = "D";
     private ArrayList<Cellule> voisins;
-    /*Sur une application avec un vrai aspect graphique, on pourrait utiliser
-    des images en ressources (par exemple en héritant plutot de ImageButton)
-     */
+
 
     public Cellule(Activity a, int caseX, int caseY){
         super(a);
