@@ -6,22 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".GameWindow">
 
-        <ScrollView
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TableLayout
+            android:id="@+id/table_jeu"
             android:layout_width="match_parent"
-            android:layout_height="515dp">
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:shrinkColumns="*"></TableLayout>
 
-            <TableLayout
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:layout_width="match_parent"
-                android:id="@+id/table_jeu"
-                android:shrinkColumns="*">
-            </TableLayout>
-
-        </ScrollView>
+    </ScrollView>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -38,12 +37,12 @@
                 android:id="@+id/Drapeau" />
 
             <Button
-                android:text="Quitter la partie"
+                android:id="@+id/Terminer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
-                android:id="@+id/Terminer" />
+                android:layout_alignParentBottom="true"
+                android:text="Quitter la partie"/>
 
         </RelativeLayout>
 
